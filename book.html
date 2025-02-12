@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="book.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="text">
+          <h2>The Trip of Your Dream</h2>
+          <p>
+            Our travel agency is ready to offer you an exciting vacation
+            designed to fit your own needs and wishes. Whether it is an exotic
+            cruise or a trip to your favorite resort, you will surely have the
+            best experience.
+          </p>
+          <a href="#" class="btn-learn">Learn More</a>
+        </div>
+        <div class="form">
+          <h3>Find Your Tour</h3>
+          <form>
+            <label for="from">From</label>
+            <select id="from" name="from">
+              <option>New York</option>
+            </select>
+
+            <label for="to">To</label>
+            <select id="to" name="to">
+              <option>Chicago</option>
+            </select>
+
+            <label for="date">Depart Date</label>
+            <input type="date" id="date" name="date" />
+
+            <label for="duration">Duration</label>
+            <select id="duration" name="duration">
+              <option>Any length</option>
+            </select>
+
+            <div class="passengers">
+              <label>Adults</label>
+              <input type="number" value="2" min="1" />
+
+              <label>Children</label>
+              <input type="number" value="0" min="0" />
+            </div>
+
+            <button type="submit" class="btn-search">Search Flight</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
